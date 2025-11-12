@@ -42,7 +42,7 @@ consistent trend? If so, what is it?
 **enter answer in `answers.md`**
 
 
-**1d)** Suppose that we used Huffman coding on a document with alphabet $\Sigma$ in
+**1e)** Suppose that we used Huffman coding on a document with alphabet $\Sigma$ in
   which every character had the same frequency. What is the expected
   cost of a Huffman encoding for the document? Is it consistent across
   documents?
