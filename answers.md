@@ -176,7 +176,7 @@ So earliest finish fails with weights.
 4. Fill the array with this rule:
    - A[0] = 0
    - For each task j from 1 to n:
-     - A[j] =maximum(A[j - 1], $v_j$ + A[p(j)])
+     - A[j] =max(A[j - 1], $v_j$ + A[p(j)])
        - Either skip task j, or take it and add its value plus the best non-overlapping total before it.  
 5. The final answer is A[n].
 
